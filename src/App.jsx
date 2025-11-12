@@ -8,7 +8,7 @@ function App() {
   const target = combination[0] * combination[1] * combination[2]
   
   const [selectedCards, setSelectedCards] = useState([])
-  const [timer, setTimer] = useState(30)
+  const [timer, setTimer] = useState(20)
   const [gameActive, setGameActive] = useState(true)
   const [message, setMessage] = useState('')
 
