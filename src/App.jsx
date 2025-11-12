@@ -48,7 +48,7 @@ function App() {
   function resetGame() {
     setCombination(getRandomNumber())
     setSelectedCards([])
-    setTimer(30)
+    setTimer(20)
     setGameActive(true)
     setMessage('')
   }
