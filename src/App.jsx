@@ -35,10 +35,10 @@ function App() {
       if (newSelected.length === 3) {
         const product = newSelected.reduce((a, b) => a * b, 1)
         if (product === target) {
-          setMessage('🎉 You Win!')
+          setMessage(' You Win!')
           setGameActive(false)
         } else {
-          setMessage(`❌ ${product} ≠ ${target} - You Lose!`)
+          setMessage(` ${product} ≠ ${target} - You Lose!`)
           setGameActive(false)
         }
       }
