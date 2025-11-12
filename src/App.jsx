@@ -12,6 +12,8 @@ function App() {
   const [gameActive, setGameActive] = useState(true)
   const [message, setMessage] = useState('')
 
+
+  // countdown timer effect
   useEffect(() => {
     if (timer <= 0 && gameActive) {
       setGameActive(false)
@@ -27,6 +29,7 @@ function App() {
     return () => clearInterval(interval)
   }, [timer, gameActive])
 
+  // handles card selection and checks for win/loss condition
   function handleCardClick(num) {
     if (selectedCards.length < 3 && !selectedCards.includes(num) && gameActive) {
       const newSelected = [...selectedCards, num]
@@ -45,6 +48,7 @@ function App() {
     }
   }
 
+  // resets game to default settings
   function resetGame() {
     setCombination(getRandomNumber())
     setSelectedCards([])
