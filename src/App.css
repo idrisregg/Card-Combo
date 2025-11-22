@@ -65,6 +65,7 @@ p{
       grid-template-columns: 1fr 1fr 1fr ;
     }
     p{
-      font-size: medium;
+      font-size: 40px;
+      color: white;
     }
 }
