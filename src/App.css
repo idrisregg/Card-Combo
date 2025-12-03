@@ -4,9 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-body{
-  background-image:url('/bg.png')
-}
 .main {
   display: flex;
   align-items: center;
