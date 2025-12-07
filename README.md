@@ -11,4 +11,4 @@ Pick exactly 3 cards. Multiply their values.
 If the Combination matches the target number, you win the round.  
 If not, you lose.
 
-You can select a card Once
+Enjoy...)
