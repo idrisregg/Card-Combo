@@ -10,7 +10,7 @@ for (let i = 0; i < nums.length; i++) {
 }
 
 //randomize a number out of the 120 possibilities
-export default function getRandomNumber() {
+export default function getRandomNumber(): number []{
   const randomIndex = Math.floor(Math.random() * combinations.length);
   return combinations[randomIndex];
 }
